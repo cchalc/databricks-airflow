@@ -14,7 +14,7 @@
             {
                 "task_key": "hello_world",
                 "notebook_task": {
-                    "notebook_path": "proj/simple/hello_world",
+                    "notebook_path": "proj/hello_world",
                     "base_parameters": {
                         "greeting": "airflow"
                     },
@@ -29,6 +29,7 @@
             {
                 "job_cluster_key": "hello_world_cluster",
                 "new_cluster": {
+                    "cluster_name": "",
                     "spark_version": "10.4.x-scala2.12",
                     "spark_conf": {
                         "spark.master": "local[*, 4]",
