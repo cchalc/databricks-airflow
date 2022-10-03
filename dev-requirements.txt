@@ -1,0 +1,5 @@
+dbx
+databricks-sql-cli
+databricks-connect==10.4.*
+nutter
+apache-airflow-providers-databricks
